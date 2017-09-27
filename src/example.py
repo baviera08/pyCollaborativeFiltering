@@ -1,8 +1,6 @@
 import tool
 
-data = tool.loadData("/home/mati/github/pyCollaborativeFiltering/src/rating"
-                     ".csv")
-# data = tool.loadData("/home/changuk/data/MovieLens/movielens.dat")
+data = tool.loadData("/home/changuk/data/MovieLens/movielens.dat")
 from recommender import UserBased
 
 ubcf = UserBased()
